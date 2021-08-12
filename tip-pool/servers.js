@@ -1,8 +1,8 @@
 let serverNameInput = document.getElementById('serverName');
 let serverForm = document.getElementById('serverForm');
 
-let serverTbody = document.querySelector('#serverTable tbody');
-
+let serverTbody_Entries = document.querySelectorAll('#serverTable tbody tr');
+let serverTbody=document.querySelector('#serverTable tbody')
 let allServers = {};
 let serverId = 0;
 
